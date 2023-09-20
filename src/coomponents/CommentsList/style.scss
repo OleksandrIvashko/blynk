@@ -1,0 +1,75 @@
+.comments {
+    max-width: 520px;
+    max-height: 600px;
+    min-height: 125px;
+    overflow: auto;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    font-size: 16px;
+    background-color: #f9f9f9;
+
+  h2 {
+    margin: 0 0 20px;
+    font-size: 40px;
+    color: gray;
+    font-weight: normal;
+  }
+
+  &-element {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 10px;
+    grid-gap: 10px;
+    max-width: 480px;
+    margin: 0 auto 10px;
+    background-color: #fff;
+    &:last-child {
+      margin-bottom: 30px;
+    }
+
+    &-color {
+      width: 10%;
+      max-width: 50px;
+      height: 50px;
+    }
+
+    &-text {
+      width: 90%;
+      max-width: 400px;
+      padding: 6px 12px;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 10px;
+    grid-gap: 10px;
+    height: 60px;
+  }
+
+  &-color {
+    width: 20%;
+    max-width: 70px;
+
+    input {
+      height: 100%;
+    }
+  }
+
+  &-text {
+    width: 70%;
+    max-width: 315px;
+  }
+
+  &-btn {
+    width: 20%;
+    max-width: 92px;
+    button {
+      height: 100%;
+    }
+  }
+}

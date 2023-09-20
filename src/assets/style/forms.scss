@@ -1,0 +1,99 @@
+input[type="text"],
+input[type="color"],
+input[type="search"],
+textarea {
+  width: 100%;
+  display: block;
+  outline: 0 none;
+  position: relative;
+  transition: all 0.3s;
+  color: #495057;
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 6px 12px;
+  line-height: 1.5;
+  border-radius: 4px;
+  background-color: #fff;
+  text-transform: none;
+  border: 1px solid #ced4da;
+
+  &::placeholder {
+    color: #7E868E;
+  }
+
+  &[disabled],
+  &[disabled="disabled"] {
+    cursor: not-allowed;
+  }
+}
+
+.btn {
+  min-width: 92px;
+  outline: 0 none;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  transition: all 0.3s;
+  letter-spacing: 0;
+  text-decoration: none !important;
+  line-height: 1.5;
+  padding: 6px 12px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #17a2b8;
+  font-weight: 400;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid transparent;
+
+  &:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(23,162,184,.5);
+  }
+
+  &[disabled],
+  &[disabled="disabled"] {
+    cursor: not-allowed;
+  }
+
+  &.btn-delete {
+    min-width: 73px;
+    color: #dc3545;
+    background-color: transparent;
+    border-color: #dc3545;
+
+    &:hover {
+      background-color: #dc3545;
+      border-color: #dc3545;
+      color: #fff;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(220,53,69,.5);
+    }
+  }
+
+  &.btn-add {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+
+    &:hover {
+      background-color: #0069d9;
+      border-color: #0062cc;
+    }
+
+    &:focus {
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.5);
+    }
+  }
+}

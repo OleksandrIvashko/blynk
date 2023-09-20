@@ -1,0 +1,47 @@
+@import "./normalize.css";
+@import "./forms.scss";
+
+*{
+  box-sizing: border-box;
+  &:after,
+  &:before {
+    box-sizing: border-box;
+  }
+}
+
+.layout {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 40px;
+  grid-gap: 40px;
+
+  &-sidebar {
+    padding: 10px;
+    text-align: center;
+    background: #2b2f3e;
+    min-height: 100vh;
+    max-width: 300px;
+    width: 100%;
+
+    h1 {
+      color: #fff;
+      font-weight: 500;
+      font-size: 32px;
+      margin: 0 0 8px;
+      font-family: inherit;
+    }
+
+    &-description {
+      color: #5b5d63;
+      font-size: 16px;
+    }
+  }
+
+  &-content {
+    max-width: 1230px;
+    padding-top: 50px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
