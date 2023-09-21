@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/OleksandrIvashko/github.io.blynk/static/css/main.40b8d6bc.css",
-    "main.js": "/OleksandrIvashko/github.io.blynk/static/js/main.9a9137d9.js",
-    "index.html": "/OleksandrIvashko/github.io.blynk/index.html",
-    "main.40b8d6bc.css.map": "/OleksandrIvashko/github.io.blynk/static/css/main.40b8d6bc.css.map",
-    "main.9a9137d9.js.map": "/OleksandrIvashko/github.io.blynk/static/js/main.9a9137d9.js.map"
+    "main.css": "/OleksandrIvashko/blynk/static/css/main.40b8d6bc.css",
+    "main.js": "/OleksandrIvashko/blynk/static/js/main.9a9137d9.js",
+    "index.html": "/OleksandrIvashko/blynk/index.html",
+    "main.40b8d6bc.css.map": "/OleksandrIvashko/blynk/static/css/main.40b8d6bc.css.map",
+    "main.9a9137d9.js.map": "/OleksandrIvashko/blynk/static/js/main.9a9137d9.js.map"
   },
   "entrypoints": [
     "static/css/main.40b8d6bc.css",
