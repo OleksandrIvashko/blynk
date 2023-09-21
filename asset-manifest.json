@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/OleksandrIvashko/github.io.OleksandrIvashko/static/css/main.40b8d6bc.css",
+    "main.js": "/OleksandrIvashko/github.io.OleksandrIvashko/static/js/main.9a9137d9.js",
+    "index.html": "/OleksandrIvashko/github.io.OleksandrIvashko/index.html",
+    "main.40b8d6bc.css.map": "/OleksandrIvashko/github.io.OleksandrIvashko/static/css/main.40b8d6bc.css.map",
+    "main.9a9137d9.js.map": "/OleksandrIvashko/github.io.OleksandrIvashko/static/js/main.9a9137d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b8d6bc.css",
+    "static/js/main.9a9137d9.js"
+  ]
+}
