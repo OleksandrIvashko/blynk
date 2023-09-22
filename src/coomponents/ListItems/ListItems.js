@@ -22,7 +22,7 @@ function ListItems() {
         setList([
             ...list,
             {
-                id: list?.length + 1,
+                id: ( Math.random() * 1000),
                 title: itemTitle,
                 count: 0,
                 comments: [],
